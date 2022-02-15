@@ -3,13 +3,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* VERIFICARE COLORI */
 
 /* GENERAL TAG RULES */
 header {
-    height: 100px;
+    height: 80px;
+    padding: 15px 20px;
+    
 }
 
 body {
@@ -35,6 +38,20 @@ nav {
 main {
     margin-bottom: 10px;
     margin-top: 3px;
-    height: calc(100vh - 50px - 60px - 120px);    
+    height:calc(100vh - 50px - 3px - 60px - 100px);    
 }
+
+/* SPECIFIC RULES */
+
+#logo {
+    width: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+header h1 {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 45px;
+}
+
 
